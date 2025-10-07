@@ -1,103 +1,55 @@
-# End-to-End System Design Platform: Classic System Design
+# System Design Platform — Classic
 
-## 1. Functional Requirements
-- User authentication (sign up, login, password reset)
-- User profile management
-- Course/catalog management (browse, search, filter)
-- Enrollment (free/paid)
-- Progress tracking (per module/lesson)
-- Quizzes and assignments (auto/manual grading)
-- Discussion forums (per module)
-- Payments and subscriptions (Stripe/PayPal)
-- Admin panel (manage content, users)
+Welcome! This is your open, modular, and practical guide to mastering system design. Whether you’re a student, job-seeker, or working engineer, this section is built to help you learn, practice, and apply real-world system design skills.
 
-## 2. Non-Functional Requirements
-- High availability (99.9%+ uptime)
-- Low latency (sub-200ms for user actions)
-- Fault tolerance (graceful degradation, retries)
-- Security (OWASP, encryption, RBAC)
-- Monitoring & observability (metrics, logs, alerts)
-- Scalability (handle 10x user spikes)
-- Maintainability (modular, testable codebase)
-
-## 3. High-Level Architecture
-**Pattern:** Modular Monolith (MVP) → Microservices (scale)
+## Visual Table of Contents
 
 ```mermaid
 graph TD
-  CDN --> LB(Load Balancer)
-  LB --> Web(Web Frontend)
-  LB --> API(API Gateway)
-  API --> AuthService
-  API --> UserService
-  API --> CatalogService
-  API --> EnrollmentService
-  API --> ProgressService
-  API --> QuizService
-  API --> ForumService
-  API --> PaymentService
-  API --> AdminService
-  API --> NotificationService
-  API --> DB[(SQL/NoSQL DB)]
-  API --> Cache[(Redis)]
-  API --> MQ[(Message Queue)]
-  Web --> CDN
+  A[Requirements] --> B[Architecture]
+  B --> C[Database]
+  C --> D[API]
+  D --> E[Patterns]
+  E --> F[Principles]
+  F --> G[Deployment]
+  G --> H[Cloud]
+  H --> I[Diagrams]
+  I --> J[Case Studies]
+  J --> K[Interview Practice]
+  K --> L[ADR]
+  L --> M[Tooling]
+  M --> N[Glossary]
 ```
 
-## 4. Database Design
-- **Relational DB (PostgreSQL/MySQL):** Users, Catalog, Enrollments, Progress, Payments, Assignments, Forums
-- **NoSQL (MongoDB/Elastic):** Forum posts, search index, analytics
+## 📚 What’s Inside
+- 20+ real-world case studies (WhatsApp, Instagram, Uber, Twitter, LinkedIn, Google Search, Amazon, Facebook, Dropbox, Slack, Airbnb, YouTube, Pinterest, Zoom, Trello, Stripe, Shopify, GitHub, Reddit, Discord, Quora, Medium, Stack Overflow, Spotify, Flipkart, and more)
+- Actionable checklists, templates, and diagrams for every major topic
+- All references are free and open—no paywalls
+- Designed for both self-study and group learning
 
-**Data Modeling Example:**
-- `User`: id, name, email, password_hash, role, created_at
-- `CatalogItem`: id, title, description, price, published, created_at
-- `Enrollment`: id, user_id, catalog_id, status, enrolled_at
-- `Progress`: id, user_id, catalog_id, lesson_id, completed_at
+## Learning Path
+1. Start with `requirements.md` to understand the problem space and constraints
+2. Study `architecture.md`, `patterns.md`, and `principles.md` for proven approaches and trade-offs
+3. Use `database.md` and `api.md` for implementation details and interface design
+4. Reference `deployment.md` and `cloud.md` for operationalizing your system
+5. Use `diagrams.md` for visual summaries
+6. Explore `case-studies/` for real-world examples
+7. Try `interview-practice/` for hands-on prep
+8. Check `glossary.md` for definitions and learning links
 
-**Caching:**
-- Redis for session tokens, catalog, user progress
-- CDN for static assets (images, videos, docs)
+## 🌐 Free & Open Resources
+All references and learning links in this project are free and open-source. See the end of each section for more, or start here:
+- [System Design Primer (GitHub)](https://github.com/donnemartin/system-design-primer)
+- [Google SRE Book](https://sre.google/books/)
+- [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [Martin Fowler’s Architecture Patterns](https://martinfowler.com/architecture/)
+- [Mermaid Live Editor](https://mermaid.live/)
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+- [Kubernetes Docs](https://kubernetes.io/docs/)
 
-## 5. API Design
-- **RESTful APIs** (OpenAPI/Swagger docs)
-- **Endpoints:**
-  - `/api/auth/*` (login, register, reset)
-  - `/api/catalog/*` (list, detail, search)
-  - `/api/enrollments/*` (enroll, status)
-  - `/api/progress/*` (update, fetch)
-  - `/api/quizzes/*` (submit, grade)
-  - `/api/forums/*` (threads, posts)
-  - `/api/payments/*` (initiate, verify)
-- **Service Communication:**
-  - Synchronous (HTTP/gRPC) for core flows
-  - Asynchronous (RabbitMQ/Kafka) for notifications, grading, emails
-
-## 6. Design Patterns & Principles
-- **Singleton:** DB connection pool, config loader
-- **Factory:** User/session/token creation
-- **Observer:** Notification system (email/SMS on events)
-- **Strategy:** Payment gateway selection, grading logic
-- **Repository:** Data access abstraction
-- **SOLID, DRY, KISS:** Modular, reusable, simple code
-
-## 7. CI/CD & Deployment
-- **CI:** GitHub Actions/GitLab CI for lint, test, build, Docker image
-- **CD:** ArgoCD/Jenkins for deployment to Kubernetes/ECS
-- **Testing:** Unit, integration, e2e, load tests
-- **Blue/Green or Rolling Deployments**
-
-## 8. Cloud-Native Considerations
-- **Containers:** Docker for all services
-- **Orchestration:** Kubernetes (EKS/GKE/AKS)
-- **Cloud Services:** S3/GCS for file storage, RDS/CloudSQL for DB, Cloud CDN, Cloud Monitoring
-
-## 9. Diagrams
-### Component Diagram
-```mermaid
-graph TD
-  User --> Web
-  Web --> API
-  API --> AuthService
+---
+This project is maintained by experienced architects and welcomes contributions. See `CONTRIBUTING.md` for details.
   API --> CatalogService
   API --> EnrollmentService
   API --> ProgressService

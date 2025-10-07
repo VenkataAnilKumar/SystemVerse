@@ -42,11 +42,31 @@ Welcome! This is your open, modular, and practical guide to mastering system des
 - Explore the Glossary for definitions and links to free learning resources.
 - Contribute your own case studies, diagrams, or improvements (see CONTRIBUTING.md).
 
+
 **What makes this classic section unique?**
 - 20+ real-world case studies, each with architecture, challenges, and links to engineering blogs.
 - Actionable checklists, templates, and diagrams for every major topic.
 - All references are free and open—no paywalls.
 - Designed for both self-study and group learning.
+
+## 🧭 Navigation
+
+- [Fundamentals & Requirements](requirements.md)
+- [Architecture](architecture.md)
+- [Database Design](database.md)
+- [API Design](api.md)
+- [System Design Principles](principles.md)
+- [Design Patterns](patterns.md)
+- [CI/CD & Deployment](deployment.md)
+- [Cloud-Native Design](cloud.md)
+- [Diagrams & Visuals](diagrams.md)
+- [Case Studies](case-studies/README.md) — 20+ real-world systems:
+	- [Netflix](case-studies/netflix.md), [WhatsApp](case-studies/whatsapp.md), [Instagram](case-studies/instagram.md), [Uber](case-studies/uber.md), [Twitter](case-studies/twitter.md), [LinkedIn](case-studies/linkedin.md), [Google Search](case-studies/google-search.md), [Amazon](case-studies/amazon.md), [Facebook](case-studies/facebook.md), [Dropbox](case-studies/dropbox.md), [Slack](case-studies/slack.md), [Airbnb](case-studies/airbnb.md), [YouTube](case-studies/youtube.md), [Pinterest](case-studies/pinterest.md), [Zoom](case-studies/zoom.md), [Trello](case-studies/trello.md), [Stripe](case-studies/stripe.md), [Shopify](case-studies/shopify.md), [GitHub](case-studies/github.md), [Reddit](case-studies/reddit.md), [Discord](case-studies/discord.md), [Quora](case-studies/quora.md), [Medium](case-studies/medium.md), [Stack Overflow](case-studies/stack-overflow.md), [Spotify](case-studies/spotify.md), [Flipkart](case-studies/flipkart.md)
+- [Interview Practice](interview-practice/README.md)
+- [Architecture Decision Records (ADR)](adr/README.md)
+- [Tooling & Templates](tooling/README.md)
+- [Glossary](glossary.md)
+- [Free & Open Resources](#free--open-resources)
 
 
 Welcome to the System Design Platform (Classic). This project is a comprehensive, theory-driven guide to designing scalable, maintainable, and robust software systems. It is intended for engineers, architects, and students who want to master the art and science of system design.
@@ -58,41 +78,7 @@ Welcome to the System Design Platform (Classic). This project is a comprehensive
 
 ## Structure
 ## 📚 What’s Inside
-This classic section now includes:
-# Quick Navigation
 
-- Use the [Visual Table of Contents](#visual-table-of-contents) below for a diagrammatic overview.
-- Browse `case-studies/` for deep dives into real-world systems.
-- See `interview-practice/` for mock interview prompts and rubrics.
-- Use `adr/` for architecture decision records and rationale.
-- Find templates and tools in `tooling/`.
-- Reference `glossary.md` for definitions and learning links.
-
----
-- `case-studies/` — Real-world system design breakdowns and lessons learned.
-+ `case-studies/` — 20+ real-world system design breakdowns (WhatsApp, Instagram, Uber, Twitter, LinkedIn, Google Search, Amazon, Facebook, Dropbox, Slack, Airbnb, YouTube, Pinterest, Zoom, Trello, Stripe, Shopify, GitHub, Reddit, Discord, Quora, Medium, Stack Overflow, Spotify, Flipkart, and more). Each case study includes architecture, challenges, and references to engineering blogs and technical sites.
-# Quick Navigation
-
-- Use the [Visual Table of Contents](#visual-table-of-contents) below for a diagrammatic overview.
-- Browse `case-studies/` for deep dives into real-world systems.
-- See `interview-practice/` for mock interview prompts and rubrics.
-- Use `adr/` for architecture decision records and rationale.
-- Find templates and tools in `tooling/`.
-- Reference `glossary.md` for definitions and learning links.
-- `tooling/` — Scripts, snippets, and integrations for system design.
-+ `glossary.md` — Definitions and free learning links for key system design terms.
-- `requirements.md` — Functional and non-functional requirements, with real-world examples.
-- `architecture.md` — High-level architecture patterns, diagrams, and trade-offs.
-- `database.md` — Data modeling, schema design, and caching strategies.
-- `api.md` — API design principles, endpoint conventions, and sample contracts.
-- `patterns.md` — Core design patterns and architectural principles.
-- `deployment.md` — CI/CD, deployment strategies, and operational best practices.
-- `cloud.md` — Cloud-native design, scalability, and reliability.
-- `diagrams.md` — Visuals and mermaid diagrams for quick reference.
-- `case-studies/` — Real-world system design breakdowns and lessons learned.
-- `interview-practice/` — Mock interview prompts, solutions, and rubrics.
-- `adr/` — Architecture Decision Records for documenting key choices.
-- `tooling/` — Scripts, snippets, and integrations for system design.
 
 ## How to Use
 1. Start with `requirements.md` to understand the problem space and constraints.
