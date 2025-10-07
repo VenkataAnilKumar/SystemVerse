@@ -1,5 +1,133 @@
 
+
 # Functional & Non-Functional Requirements
+
+
+## Deep Dive: System Design Fundamentals
+
+### 1. Abstractions in Distributed Systems
+
+#### Network Abstraction
+- **RPC, REST, gRPC:** Remote calls abstract away network details. REST is stateless and text-based; gRPC is binary and supports streaming.
+- **Message Passing:** Used in microservices and distributed systems for decoupling.
+#### Consistency Models
+- **Strong Consistency:** All clients see the same data at the same time (e.g., RDBMS, Zookeeper).
+- **Eventual Consistency:** Updates propagate over time (e.g., DynamoDB, Cassandra).
+
+| Model                | Guarantees                  | Use Case Example         | Trade-off                |
+|----------------------|----------------------------|--------------------------|--------------------------|
+| Strong               | Always up-to-date          | Banking, Zookeeper       | Lower availability       |
+- **Crash:** Node stops responding (most common).
+- **Omission:** Messages lost or not sent/received.
+- **Byzantine:** Malicious or arbitrary failures (rare, but critical in blockchains).
+- **Network Partition:** Network splits into isolated groups.
+
+**Mini Case Study:**
+> If a node fails during a write in a distributed DB (e.g., Cassandra), the system may use hinted handoff or write to a quorum of nodes, then reconcile when the failed node recovers. This enables high availability at the cost of possible temporary inconsistency.
+
+#### CAP Theorem
+- **Consistency, Availability, Partition Tolerance:** You can only guarantee two in a distributed system.
+---
+
+### 2. Non-functional System Characteristics
+
+- **Availability:** Uptime, redundancy, failover, health checks. Example: 99.99% uptime = ~5 min downtime/month.
+- **Reliability:** Data durability, error rates, backup/restore, idempotency.
+- **Scalability:** Vertical vs horizontal, statelessness, partitioning, bottlenecks.
+| Characteristic   | Definition                | Example Metric         | Design Trade-off                |
+|------------------|---------------------------|------------------------|---------------------------------|
+| Fault Tolerance  | Survives failures         | Recovery time          | Redundancy vs. cost             |
+| Durability       | Data persists             | Data loss rate         | Replication vs. write latency   |
+
+**Checklist:**
+- [ ] SLAs/SLOs defined for all critical paths
+- [ ] Monitoring and alerting in place
+- [ ] Regular reliability reviews
+
+---
+
+
+#### Storage Needs
+- Data size, growth rate, retention policy. E.g., 1KB/request × 100 RPS × 86400 = 8.6GB/day.
+
+#### Bandwidth
+- Data transfer per request × RPS. E.g., 1KB × 100 RPS = 100KB/s.
+
+**Worked Example:**
+> Design for 1M DAU, 100 RPS, 1KB/request → 8.6GB/day. If you want to store 1 year of data: 8.6GB × 365 ≈ 3.1TB.
+
+**Formulas:**
+- RPS = users × requests/user/sec
+- Storage/day = RPS × size/request × 86400
+
+---
+#### DNS
+- Name resolution, caching, TTL, root/authoritative/recursive servers.
+- **Trade-off:** Lower TTL = fresher data, but more load on DNS servers.
+
+#### Load Balancers
+- L4 (TCP/UDP) vs L7 (HTTP/HTTPS), algorithms (round robin, least connections), local/global, health checks.
+- **Diagram:**
+```mermaid
+graph TD
+	User --> LB[Load Balancer]
+	LB --> S1[Server 1]
+	LB --> S2[Server 2]
+```
+
+#### Databases
+- SQL vs NoSQL, replication, partitioning, consistency, failover.
+- **Trade-off Table:**
+| Type   | Pros                | Cons                  | Example Use Case      |
+|--------|---------------------|-----------------------|----------------------|
+| SQL    | Strong consistency  | Harder to scale       | Banking, inventory   |
+| NoSQL  | Scalable, flexible  | Weaker consistency    | Social feeds, logs   |
+
+#### Key-value Stores
+- Use cases: session storage, caching, user profiles.
+- Replication, versioning, fault tolerance.
+
+#### CDN
+- Content caching, edge nodes, cache invalidation, consistency.
+- **Diagram:**
+```mermaid
+graph TD
+	Origin[Origin Server] --> CDN[CDN Edge]
+	CDN --> User
+```
+
+#### Distributed Cache
+- High-level vs detailed design, eviction, cache coherence.
+- **Mini Case Study:** How does Twitter use cache-aside for timelines?
+
+#### Messaging Queues
+- Decoupling, durability, at-least-once vs exactly-once, dead-letter queues.
+
+#### Pub-Sub
+- Fan-out, ordering, delivery guarantees, scaling.
+
+#### Rate Limiter
+- Algorithms: token bucket, leaky bucket, fixed window, distributed rate limiting.
+
+#### Blob Store
+- Scalability, storage, performance, S3/GCS design.
+
+#### Distributed Logging
+- Log aggregation, durability, search, retention.
+
+#### Sharded Counters
+- High-throughput counting, partitioning, aggregation.
+
+#### Sequencer
+- Unique ID generation, causality, consistency.
+
+#### Distributed Task Scheduler
+- Prioritization, idempotency, queuing, resource optimization.
+
+**Mini Case Study:**
+> Twitter shards timelines by user ID to distribute load and enable horizontal scaling. Each shard is responsible for a subset of users, reducing contention and improving performance.
+
+---
 
 This section covers the essential requirements for any robust system, with practical examples and actionable checklists.
 
