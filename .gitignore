@@ -1,0 +1,8 @@
+# SystemVerse .gitignore
+__pycache__/
+node_modules/
+.env
+.DS_Store
+*.pyc
+*.pyo
+*.log
