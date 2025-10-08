@@ -1,30 +1,71 @@
 
+
+
 # SystemVerse Classic
 
+![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
+
+
 Welcome to the **Classic** section of SystemVerse! This is your comprehensive, open, and modular resource for mastering system design fundamentals, principles, and real-world case studies.
+
+
+## Overview
+
+**Folders:**
+- `system-design-platform/`: Modern system design theory, architecture, patterns, databases, APIs, deployment, cloud, diagrams, 20+ real-world case studies, interview prep, ADRs, tooling, and glossary.
+- `object-oriented-design/`: Object-Oriented Analysis & Design, UML, 15+ classic case studies, Python code, and diagrams.
+
+
+SystemVerse Classic is organized into two major parts:
+
+- **System Design Platform**: Everything you need to master modern system design—requirements, architecture, patterns, databases, APIs, deployment, cloud, diagrams, 20+ real-world case studies, interview prep, and more.
+- **Object-Oriented Analysis & Design (OOAD)**: Deep dive into object-oriented design, UML, and 15+ classic case studies (ATM, Chess, Facebook, LinkedIn, etc.) with Python code and diagrams.
+
+---
+
+## Who is this for?
+
+- Students and engineers preparing for system design or OOD interviews
+- Professionals building or scaling real-world systems
+- Anyone seeking a deep, practical understanding of system design and OOAD
+
+---
 
 ---
 
 
-## 📚 Project Structure
 
-- **system-design-platform/**
-  - [README](system-design-platform/README.md): Visual overview, navigation, and project goals
-  - [requirements.md](system-design-platform/requirements.md): Deep-dive fundamentals & estimation
-  - [principles.md](system-design-platform/principles.md): System design principles & frameworks
-  - [patterns.md](system-design-platform/patterns.md): Design patterns (core, distributed, emerging)
-  - [architecture.md](system-design-platform/architecture.md): High-level architecture
-  - [database.md](system-design-platform/database.md): Database design
-  - [api.md](system-design-platform/api.md): API design
-  - [deployment.md](system-design-platform/deployment.md): CI/CD & deployment
-  - [cloud.md](system-design-platform/cloud.md): Cloud-native design
-  - [diagrams.md](system-design-platform/diagrams.md): Visuals & diagramming
-  - [case-studies/](system-design-platform/case-studies/): 20+ real-world case studies
-  - [interview-practice/](system-design-platform/interview-practice/): Interview prep & mock interviews
-  - [adr/](system-design-platform/adr/): Architecture Decision Records
-  - [tooling/](system-design-platform/tooling/): Tooling & templates
 
-  - [glossary.md](system-design-platform/glossary.md): Glossary of terms
+## � Getting Started
+1. Browse the [System Design Platform](system-design-platform/README.md) for modern system design topics and case studies.
+2. Explore [Object-Oriented Design](object-oriented-design/readme.md) for object-oriented design, UML, and classic case studies.
+3. Use the navigation below or the folder structure for quick access.
+
+---
+
+## 🗂️ Folder Structure
+
+```text
+
+
+---
+
+## 🏛️ Object-Oriented Analysis & Design (OOAD)
+
+The OOAD section provides:
+- Object-oriented design fundamentals and UML documentation
+- 15+ real-world case studies (ATM, Chess, Facebook, LinkedIn, etc.)
+- Example code implementations in Python
+- Visual diagrams and media files
+
+**Quick Links:**
+- [Theory & UML](object-oriented-design/object-oriented-design-and-uml/)
+- [Case Studies](object-oriented-design/object-oriented-design-case-studies/)
+- [Example Codes](object-oriented-design/example-codes/)
+- [Media Files](object-oriented-design/media-files/)
+- [README (full navigation)](object-oriented-design/readme.md)
+
+**Hierarchy:**
 
 ---
 
@@ -39,7 +80,7 @@ The OOAD section provides:
 **Hierarchy:**
 
 ```
-ooad/
+object-oriented-design/
   ├── example-codes/                  # Python code for all case studies
   ├── media-files/                     # Diagrams and images (UML, class, sequence, etc.)
   ├── object-oriented-design-and-uml/   # OOAD and UML theory docs
@@ -47,9 +88,11 @@ ooad/
   └── readme.md                        # OOAD section overview and navigation
 ```
 
-See [ooad/readme.md](ooad/readme.md) for full navigation and links to all content.
 
 ---
+
+---
+
 
 
 ## 🧭 Quick Navigation
@@ -143,7 +186,30 @@ sequenceDiagram
 
 ---
 
-## 🚀 How to Use
+---
+
+## ❓ FAQ & Support
+
+**Q: Who maintains this project?**
+A: Experienced architects and contributors. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+
+**Q: How do I get help or suggest improvements?**
+A: Open an issue or pull request on GitHub.
+
+**Q: Can I use this for interview prep or teaching?**
+A: Yes! All content is open-source and free to use.
+
+---
+
+## 🤝 How to Contribute
+We welcome contributions! See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
+
+---
+
+---
+
+## � License
+This project is licensed under the [MIT License](../LICENSE).
 1. Start with the [System Design Platform Home](system-design-platform/README.md) for a visual overview and navigation.
 2. Explore any topic or case study that interests you—each is self-contained and reference-rich.
 3. Use the Interview Practice section to prepare for real interviews.

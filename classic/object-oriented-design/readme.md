@@ -1,7 +1,7 @@
 
-# Object-Oriented Analysis & Design (OOAD)
+# Object-Oriented Analysis & Design
 
-Welcome to the OOAD section of SystemVerse! This section provides:
+Welcome to the Object-Oriented Design section of SystemVerse! This section provides:
 - Object-oriented design fundamentals and UML documentation
 - 15+ real-world case studies (ATM, Chess, Facebook, LinkedIn, etc.)
 - Example code implementations in Python
@@ -10,12 +10,12 @@ Welcome to the OOAD section of SystemVerse! This section provides:
 ## Directory Structure
 
 ```
-ooad/
+object-oriented-design/
     ├── example-codes/                  # Python code for all case studies
     ├── media-files/                     # Diagrams and images (UML, class, sequence, etc.)
-    ├── object-oriented-design-and-uml/   # OOAD and UML theory docs
+    ├── object-oriented-design-and-uml/   # OOD and UML theory docs
     ├── object-oriented-design-case-studies/ # Detailed case studies (design docs)
-    └── readme.md                        # OOAD section overview and navigation
+    └── readme.md                        # OOD section overview and navigation
 ```
 
 ---
