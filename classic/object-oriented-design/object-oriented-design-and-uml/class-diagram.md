@@ -14,7 +14,7 @@ The purpose of the class diagram can be summarized as:
 A class is depicted in the class diagram as a rectangle with three horizontal sections, as shown in the figure below. The upper section shows the class’s name (Flight), the middle section contains the properties of the class, and the lower section contains the class’s operations (or “methods”).
 
 <p align="center">
-    <img src="/media-files/class-relationship.svg" alt="Class Relationships">
+    <img src="../media-files/class-relationship.svg" alt="Class Relationships">
 </p>
 
 These are the different types of relationships between classes:
@@ -29,7 +29,7 @@ These are the different types of relationships between classes:
 We can indicate the multiplicity of an association by adding multiplicity adornments to the line denoting the association. The below diagram, demonstrates that a FlightInstance has exactly two Pilots but a Pilot can have many FlightInstances.
 
 <p align="center">
-    <img src="/media-files/class-diagram.png" alt="Class Diagram">
+    <img src="../media-files/class-diagram.png" alt="Class Diagram">
     <br />
     Sample class diagram for flight reservation system
 </p>
@@ -45,5 +45,5 @@ We can indicate the multiplicity of an association by adding multiplicity adornm
 **Abstract Class:** An abstract class is identified by specifying its name in italics. In the above diagram, both Person and Account classes are abstract classes.
 
 <p align="center">
-    <img src="/media-files/uml-conversion.svg" alt="UML Conversion">
+    <img src="../media-files/uml-conversion.svg" alt="UML Conversion">
 </p>

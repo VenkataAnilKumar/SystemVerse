@@ -12,7 +12,7 @@
 Cricinfo is a sports news website exclusively for the game of cricket. The site features live coverage of cricket matches containing ball-by-ball commentary and a database for all the historic matches. The site also provides news and articles about cricket.
 
 <p align="center">
-    <img src="/media-files/cricinfo.png" alt="Cricinfo">
+    <img src="../media-files/cricinfo.png" alt="Cricinfo">
     <br />
     Cricinfo
 </p>
@@ -49,7 +49,7 @@ Here are the top use cases of our system:
 Here is the use case diagram of Cricinfo:
 
 <p align="center">
-    <img src="/media-files/cricinfo-use-case-diagram.svg" alt="Cricinfo Use Case Diagram">
+    <img src="../media-files/cricinfo-use-case-diagram.svg" alt="Cricinfo Use Case Diagram">
     <br />
     Use Case Diagram for Cricinfo
 </p>
@@ -74,13 +74,13 @@ Here are the main classes of the Cricinfo system:
 * **StatQuery:** This class will encapsulate general stat queries and their answers, like “Who has scored the maximum number of 100s in ODIs?” or, “Which bowler has taken the most wickets in test matches?”, etc.
 
 <p align="center">
-    <img src="/media-files/cricinfo-class-diagram.png" alt="Cricinfo Class Diagram">
+    <img src="../media-files/cricinfo-class-diagram.png" alt="Cricinfo Class Diagram">
     <br />
     Class Diagram for Cricinfo
 </p>
 
 <p align="center">
-    <img src="/media-files/cricinfo-uml.svg" alt="Cricinfo UML">
+    <img src="../media-files/cricinfo-uml.svg" alt="Cricinfo UML">
     <br />
     UML for Cricinfo
 </p>
@@ -90,7 +90,7 @@ Here are the main classes of the Cricinfo system:
 **Record a Ball of an Over:** Here are the steps to record a ball of an over in the system:
 
 <p align="center">
-    <img src="/media-files/cricinfo-activity-diagram.svg" alt="Cricinfo Activity Diagram">
+    <img src="../media-files/cricinfo-activity-diagram.svg" alt="Cricinfo Activity Diagram">
     <br />
     Activity Diagram for Cricinfo
 </p>

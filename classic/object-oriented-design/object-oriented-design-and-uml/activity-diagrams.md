@@ -7,7 +7,7 @@ Activity diagrams illustrate the dynamic nature of a system by modeling the flow
 Following is an activity diagram for a user performing online shopping:
 
 <p align="center">
-    <img src="/media-files/activity-diagrams.svg" alt="Activity Diagram">
+    <img src="../media-files/activity-diagrams.svg" alt="Activity Diagram">
     <br />
     Sample activity diagram for online shopping
 </p>

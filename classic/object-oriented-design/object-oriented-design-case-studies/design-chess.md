@@ -12,7 +12,7 @@
 Chess is a two-player strategy board game played on a chessboard, which is a checkered gameboard with 64 squares arranged in an 8×8 grid. There are a few versions of game types that people play all over the world. In this design problem, we are going to focus on designing a two-player online chess game.
 
 <p align="center">
-    <img src="/media-files/chess.png" alt="Chess">
+    <img src="../media-files/chess.png" alt="Chess">
     <br />
     Chess
 </p>
@@ -47,7 +47,7 @@ Here are the top use cases for chess:
 Here is the use case diagram of our Chess Game:
 
 <p align="center">
-    <img src="/media-files/chess-use-case-diagram.png" alt="Chess Use Case Diagram">
+    <img src="../media-files/chess-use-case-diagram.png" alt="Chess Use Case Diagram">
     <br />
     Use Case Diagram for Chess
 </p>
@@ -67,13 +67,13 @@ Here are the main classes for chess:
 **GameView:** Game class updates the GameView to show changes to the players.
 
 <p align="center">
-    <img src="/media-files/chess-class-diagram.png" alt="Chess Class Diagram">
+    <img src="../media-files/chess-class-diagram.png" alt="Chess Class Diagram">
     <br />
     Class Diagram for Chess
 </p>
 
 <p align="center">
-    <img src="/media-files/chess-uml.svg" alt="Chess UML">
+    <img src="../media-files/chess-uml.svg" alt="Chess UML">
     <br />
     UML for Chess
 </p>
@@ -83,7 +83,7 @@ Here are the main classes for chess:
 **Make move:** Any Player can perform this activity. Here are the set of steps to make a move:
 
 <p align="center">
-    <img src="/media-files/chess-activity-diagram.svg" alt="Chess Activity Diagram">
+    <img src="../media-files/chess-activity-diagram.svg" alt="Chess Activity Diagram">
     <br />
     Activity Diagram for Chess
 </p>

@@ -13,7 +13,7 @@
 Facebook is an online social networking service where users can connect with other users to post and read messages. Users access Facebook through their website interface or mobile apps.
 
 <p align="center">
-    <img src="/media-files/facebook.png" alt="Facebook">
+    <img src="../media-files/facebook.png" alt="Facebook">
     <br />
     Facebook
 </p>
@@ -57,7 +57,7 @@ Here are the top use cases of our system:
 Here is the use case diagram of Facebook:
 
 <p align="center">
-    <img src="/media-files/facebook-use-case-diagram.svg" alt="Facebook Use Case Diagram">
+    <img src="../media-files/facebook-use-case-diagram.svg" alt="Facebook Use Case Diagram">
     <br />
     Use Case Diagram for Facebook
 </p>
@@ -77,13 +77,13 @@ Here are the main classes of the Facebook system:
 * **Notification:** This class will take care of sending notifications to members. The system will be able to send a push notification or an email.
 
 <p align="center">
-    <img src="/media-files/facebook-class-diagram.png" alt="Facebook Class Diagram">
+    <img src="../media-files/facebook-class-diagram.png" alt="Facebook Class Diagram">
     <br />
     Class Diagram for Facebook
 </p>
 
 <p align="center">
-    <img src="/media-files/facebook-uml.svg" alt="Facebook UML">
+    <img src="../media-files/facebook-uml.svg" alt="Facebook UML">
     <br />
     UML for Facebook
 </p>
@@ -93,7 +93,7 @@ Here are the main classes of the Facebook system:
 **Add work experience to profile:** Any Facebook member can perform this activity. Here are the steps to add work experience to a member’s profile:
 
 <p align="center">
-    <img src="/media-files/facebook-profile-activity-diagram.svg" alt="Facebook Profile Activity Diagram">
+    <img src="../media-files/facebook-profile-activity-diagram.svg" alt="Facebook Profile Activity Diagram">
     <br />
     Activity Diagram for Facebook Add Experience to Profile
 </p>
@@ -101,7 +101,7 @@ Here are the main classes of the Facebook system:
 **Create a new post:** Any Member can perform this activity. Here are the steps for creating a post:
 
 <p align="center">
-    <img src="/media-files/facebook-post-activity-diagram.svg" alt="Facebook Post Activity Diagram">
+    <img src="../media-files/facebook-post-activity-diagram.svg" alt="Facebook Post Activity Diagram">
     <br />
     Activity Diagram for Facebook Create New Post
 </p>

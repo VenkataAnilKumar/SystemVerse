@@ -12,7 +12,7 @@
 A Hotel Management System is a software built to handle all online hotel activities easily and safely. This System will give the hotel management power and flexibility to manage the entire system from a single online portal. The system allows the manager to keep track of all the available rooms in the system as well as to book rooms and generate bills.
 
 <p align="center">
-    <img src="/media-files/hotel-management-system.png" alt="Hotel Management System">
+    <img src="../media-files/hotel-management-system.png" alt="Hotel Management System">
     <br />
     Hotel Management System
 </p>
@@ -56,7 +56,7 @@ Here are the top use cases of the Hotel Management System:
 Here is the use case diagram of our Hotel Management System:
 
 <p align="center">
-    <img src="/media-files/hms-use-case-diagram.svg" alt="Hotel Management System Use Case Diagram">
+    <img src="../media-files/hms-use-case-diagram.svg" alt="Hotel Management System Use Case Diagram">
     <br />
     Use Case Diagram for Hotel Management System
 </p>
@@ -76,13 +76,13 @@ Here are the main classes of our Hotel Management System:
 * **RoomKey:** Each room can be assigned an electronic key card. Keys will have a barcode and will be uniquely identified by a key-ID.
 
 <p align="center">
-    <img src="/media-files/hms-class-diagram.png" alt="Hotel Management System Class Diagram">
+    <img src="../media-files/hms-class-diagram.png" alt="Hotel Management System Class Diagram">
     <br />
     Class Diagram for Hotel Management System
 </p>
 
 <p align="center">
-    <img src="/media-files/hms-uml.svg" alt="Hotel Management System UML">
+    <img src="../media-files/hms-uml.svg" alt="Hotel Management System UML">
     <br />
     UML for Hotel Management System
 </p>
@@ -92,7 +92,7 @@ Here are the main classes of our Hotel Management System:
 **Make a room booking:** Any guest or receptionist can perform this activity. Here are the set of steps to book a room:
 
 <p align="center">
-    <img src="/media-files/hms-room-booking-activity-diagram.svg" alt="Hotel Management System Room Booking">
+    <img src="../media-files/hms-room-booking-activity-diagram.svg" alt="Hotel Management System Room Booking">
     <br />
     Activity Diagram for Hotel Management System Room Booking
 </p>
@@ -100,7 +100,7 @@ Here are the main classes of our Hotel Management System:
 **Check in:** Guest will check in for their booking. The Receptionist can also perform this activity. Here are the steps:
 
 <p align="center">
-    <img src="/media-files/hms-check-in-activity-diagram.svg" alt="Hotel Management System Check in">
+    <img src="../media-files/hms-check-in-activity-diagram.svg" alt="Hotel Management System Check in">
     <br />
     Activity Diagram for Hotel Management System Check in
 </p>
@@ -108,7 +108,7 @@ Here are the main classes of our Hotel Management System:
 **Cancel a booking:** Guest can cancel their booking. Receptionist can perform this activity. Here are the different steps of this activity:
 
 <p align="center">
-    <img src="/media-files/hms-cancel-booking-activity-diagram.svg" alt="Hotel Management System Cancel Booking">
+    <img src="../media-files/hms-cancel-booking-activity-diagram.svg" alt="Hotel Management System Cancel Booking">
     <br />
     Activity Diagram for Hotel Management System Cancel Booking
 </p>

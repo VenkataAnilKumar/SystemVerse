@@ -20,7 +20,7 @@ A LinkedIn member’s profile page, which emphasizes their skills, employment hi
 LinkedIn is very similar to Facebook in terms of its layout and design. These features are more specialized because they cater to professionals, but in general, if you know how to use Facebook or any other similar social network, LinkedIn is somewhat comparable.
 
 <p align="center">
-    <img src="/media-files/linkedin.png" alt="LinkedIn">
+    <img src="../media-files/linkedin.png" alt="LinkedIn">
     <br />
     LinkedIn
 </p>
@@ -62,7 +62,7 @@ Here are the top use cases of our system:
 Here is the use case diagram of LinkedIn:
 
 <p align="center">
-    <img src="/media-files/linkedin-use-case-diagram.svg" alt="LinkedIn Use Case Diagram">
+    <img src="../media-files/linkedin-use-case-diagram.svg" alt="LinkedIn Use Case Diagram">
     <br />
     Use Case Diagram for LinkedIn
 </p>
@@ -82,13 +82,13 @@ Here are the main classes of the LinkedIn system:
 * Notification: Will take care of sending notifications to members.
 
 <p align="center">
-    <img src="/media-files/linkedin-class-diagram.png" alt="LinkedIn Class Diagram">
+    <img src="../media-files/linkedin-class-diagram.png" alt="LinkedIn Class Diagram">
     <br />
     Class Diagram for LinkedIn
 </p>
 
 <p align="center">
-    <img src="/media-files/linkedin-uml.svg" alt="LinkedIn UML">
+    <img src="../media-files/linkedin-uml.svg" alt="LinkedIn UML">
     <br />
     UML for LinkedIn
 </p>
@@ -98,7 +98,7 @@ Here are the main classes of the LinkedIn system:
 **Add experience to profile:** Any LinkedIn member can perform this activity. Here are the steps to add experience to a member profile:
 
 <p align="center">
-    <img src="/media-files/linkedin-profile-activity-diagram.svg" alt="LinkedIn Profile Activity Diagram">
+    <img src="../media-files/linkedin-profile-activity-diagram.svg" alt="LinkedIn Profile Activity Diagram">
     <br />
     Activity Diagram for LinkedIn Add Experience to Profile
 </p>
@@ -106,7 +106,7 @@ Here are the main classes of the LinkedIn system:
 **Send message:** Any Member can perform this activity. After sending a message, the system needs to send a notification to all the requested members. Here are the steps for sending a message:
 
 <p align="center">
-    <img src="/media-files/linkedin-message-activity-diagram.svg" alt="LinkedIn Send Message Activity Diagram">
+    <img src="../media-files/linkedin-message-activity-diagram.svg" alt="LinkedIn Send Message Activity Diagram">
     <br />
     Activity Diagram for LinkedIn Send Message
 </p>

@@ -1,7 +1,7 @@
 <h1 align="center">Design a Library Management System</h1>
 <h3 align="center">Let's design a Library Management System</h3>
 
-**We'll cover the following:**
+    <img src="../media-files/library-system.png" alt="Library Management System">
 
 * [System Requirements](#system-requirements)
 * [Use Case Diagram](#use-case-diagram)
@@ -10,20 +10,21 @@
 * [Code](#code)
 
 A Library Management System is a software built to handle the primary housekeeping functions of a library. Libraries rely on library management systems to manage asset collections as well as relationships with their members. Library management systems help libraries keep track of the books and their checkouts, as well as members’ subscriptions and profiles.
+    <img src="../media-files/lib-use-case-diagram.png" alt="Library Use Case Diagram">
 
 Library management systems also involve maintaining the database for entering new books and recording books that have been borrowed with their respective due dates.
 
 <p align="center">
-    <img src="/media-files/library-system.png" alt="Library Management System">
+    <img src="../media-files/library-system.png" alt="Library Management System">
     <br />
     Library Management System
-</p>
+    <img src="../media-files/lib-class-diagram.png" alt="Library Class Diagram">
 
 ### System Requirements
 
 <p align="center">
     <b>
-        <i>
+    <img src="../media-files/lib-uml.svg" alt="Library UML">
             Always clarify requirements at the beginning of the interview. Be sure to ask questions to find the exact scope of the system that the interviewer has in mind.
         </i>
     </b>
@@ -33,7 +34,7 @@ We will focus on the following set of requirements while designing the Library M
 
 1. Any library member should be able to search books by their title, author, subject category as well by the publication date.
 2. Each book will have a unique identification number and other details including a rack number which will help to physically locate the book.
-3. There could be more than one copy of a book, and library members should be able to check-out and reserve any copy. We will call each copy of a book, a book item.
+    <img src="../media-files/lib-check-out-book.svg" alt="Check-out Book Activity Diagram">
 4. The system should be able to retrieve information like who took a particular book or what are the books checked-out by a specific library member.
 5. There should be a maximum limit (5) on how many books a member can check-out.
 6. There should be a maximum limit (10) on how many days a member can keep a book.
@@ -41,7 +42,7 @@ We will focus on the following set of requirements while designing the Library M
 8. Members should be able to reserve books that are not currently available.
 9. The system should be able to send notifications whenever the reserved books become available, as well as when the book is not returned within the due date.
 10. Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
-
+    <img src="../media-files/lib-return-book.png" alt="Return Book Activity Diagram">
 ### Use Case Diagram
 
 We have three main actors in our system:
@@ -49,7 +50,7 @@ We have three main actors in our system:
 * **Librarian:** Mainly responsible for adding and modifying books, book items, and users. The Librarian can also issue, reserve, and return book items.
 * **Member:** All members can search the catalog, as well as check-out, reserve, renew, and return a book.
 * **System:** Mainly responsible for sending notifications for overdue books, canceled reservations, etc.
-
+    <img src="../media-files/lib-renew-book.svg" alt="Renew Book Activity Diagram">
 Here are the top use cases of the Library Management System:
 
 * **Add/Remove/Edit book:** To add, remove or modify a book or book item.
@@ -63,7 +64,7 @@ Here are the top use cases of the Library Management System:
 Here is the use case diagram of our Library Management System:
 
 <p align="center">
-    <img src="/media-files/lib-use-case-diagram.png" alt="Library Use Case Diagram">
+    <img src="../media-files/lib-use-case-diagram.png" alt="Library Use Case Diagram">
     <br />
     Use Case Diagram for Library Management System
 </p>
@@ -86,13 +87,13 @@ Here are the main classes of our Library Management System:
 * **Notification:** This class will take care of sending notifications to library members.
 
 <p align="center">
-    <img src="/media-files/lib-class-diagram.png" alt="Library Class Diagram">
+    <img src="../media-files/lib-class-diagram.png" alt="Library Class Diagram">
     <br />
     Class Diagram for Library Management System
 </p>
 
 <p align="center">
-    <img src="/media-files/lib-uml.svg" alt="Library UML">
+    <img src="../media-files/lib-uml.svg" alt="Library UML">
     <br />
     UML for Library Management System
 </p>
@@ -102,7 +103,7 @@ Here are the main classes of our Library Management System:
 **Check-out a book:** Any library member or librarian can perform this activity. Here are the set of steps to check-out a book:
 
 <p align="center">
-    <img src="/media-files/lib-check-out-book.svg" alt="Check-out Book Activity Diagram">
+    <img src="../media-files/lib-check-out-book.svg" alt="Check-out Book Activity Diagram">
     <br />
     Activity Diagram for Library Management System Check-out Book
 </p>
@@ -110,7 +111,7 @@ Here are the main classes of our Library Management System:
 **Return a book:** Any library member or librarian can perform this activity. The system will collect fines from members if they return books after the due date. Here are the steps for returning a book:
 
 <p align="center">
-    <img src="/media-files/lib-return-book.png" alt="Return Book Activity Diagram">
+    <img src="../media-files/lib-return-book.png" alt="Return Book Activity Diagram">
     <br />
     Activity Diagram for Library Management System Return Book
 </p>
@@ -118,7 +119,7 @@ Here are the main classes of our Library Management System:
 **Renew a book:** While renewing (re-issuing) a book, the system will check for fines and see if any other member has not reserved the same book, in that case the book item cannot be renewed. Here are the different steps for renewing a book:
 
 <p align="center">
-    <img src="/media-files/lib-renew-book.svg" alt="Renew Book Activity Diagram">
+    <img src="../media-files/lib-renew-book.svg" alt="Renew Book Activity Diagram">
     <br />
     Activity Diagram for Library Management System Renew Book
 </p>

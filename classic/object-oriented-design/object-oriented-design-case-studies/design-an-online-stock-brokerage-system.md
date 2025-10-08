@@ -14,7 +14,7 @@ An Online Stock Brokerage System facilitates its users the trade (i.e. buying an
 The online stock brokerage system automates traditional stock trading using computers and the internet, making the transaction faster and cheaper. This system also gives speedier access to stock reports, current market trends, and real-time stock prices.
 
 <p align="center">
-    <img src="/media-files/stock-brokerage-system.png" alt="Online Stock Brokerage System">
+    <img src="../media-files/stock-brokerage-system.png" alt="Online Stock Brokerage System">
     <br />
     Online Stock Brokerage System
 </p>
@@ -51,7 +51,7 @@ Here are the top use cases of the Stock Brokerage System:
 Here is the use case diagram of an Online Stock Brokerage System:
 
 <p align="center">
-    <img src="/media-files/sbs-use-case-diagram.svg" alt="Online Stock Brokerage System Use Case Diagram">
+    <img src="../media-files/sbs-use-case-diagram.svg" alt="Online Stock Brokerage System Use Case Diagram">
     <br />
     Use Case Diagram for Online Stock Brokerage System
 </p>
@@ -78,13 +78,13 @@ Here are the main classes of our Online Stock Brokerage System:
 * **Notification:** Will take care of sending notifications to members.
 
 <p align="center">
-    <img src="/media-files/sbs-class-diagram.png" alt="Online Stock Brokerage System Class Diagram">
+    <img src="../media-files/sbs-class-diagram.png" alt="Online Stock Brokerage System Class Diagram">
     <br />
     Class Diagram for Online Stock Brokerage System
 </p>
 
 <p align="center">
-    <img src="/media-files/sbs-uml.svg" alt="Online Stock Brokerage System UML">
+    <img src="../media-files/sbs-uml.svg" alt="Online Stock Brokerage System UML">
     <br />
     UML for Online Stock Brokerage System
 </p>
@@ -94,7 +94,7 @@ Here are the main classes of our Online Stock Brokerage System:
 **Place a buy order:** Any system user can perform this activity. Here are the steps to place a buy order:
 
 <p align="center">
-    <img src="/media-files/sbs-buy-order-activity-diagram.svg" alt="Online Stock Brokerage System Buy Order">
+    <img src="../media-files/sbs-buy-order-activity-diagram.svg" alt="Online Stock Brokerage System Buy Order">
     <br />
     Activity Diagram for Online Stock Brokerage System Buy Order
 </p>
@@ -102,7 +102,7 @@ Here are the main classes of our Online Stock Brokerage System:
 **Place a sell order:** Any system user can perform this activity. Here are the steps to place a buy order:
 
 <p align="center">
-    <img src="/media-files/sbs-sell-order-activity-diagram.svg" alt="Online Stock Brokerage System Sell Order">
+    <img src="../media-files/sbs-sell-order-activity-diagram.svg" alt="Online Stock Brokerage System Sell Order">
     <br />
     Activity Diagram for Online Stock Brokerage System Sell Order
 </p>

@@ -14,7 +14,7 @@
 An automated teller machine (ATM) is an electronic telecommunications instrument that provides the clients of a financial institution with access to financial transactions in a public space without the need for a cashier or bank teller. ATMs are necessary as not all the bank branches are open every day of the week, and some customers may not be in a position to visit a bank each time they want to withdraw or deposit money.
 
 <p align="center">
-    <img src="/media-files/atm.png" alt="ATM">
+    <img src="../media-files/atm.png" alt="ATM">
     <br />
     ATM
 </p>
@@ -80,7 +80,7 @@ Here are the actors of the ATM system and their use cases:
 Here is the use case diagram of our ATM system:
 
 <p align="center">
-    <img src="/media-files/atm-use-case-diagram.svg" alt="ATM Use Case Diagram">
+    <img src="../media-files/atm-use-case-diagram.svg" alt="ATM Use Case Diagram">
     <br />
     Use Case Diagram for ATM
 </p>
@@ -103,13 +103,13 @@ Here are the main classes of the ATM System:
 * **Transaction:** Encapsulating all transactions that the customer can perform on the ATM, like BalanceInquiry, Deposit, Withdraw, etc.
 
 <p align="center">
-    <img src="/media-files/atm-class-diagram.png" alt="ATM Class Diagram">
+    <img src="../media-files/atm-class-diagram.png" alt="ATM Class Diagram">
     <br />
     Class Diagram for ATM
 </p>
 
 <p align="center">
-    <img src="/media-files/atm-uml.svg" alt="ATM UML">
+    <img src="../media-files/atm-uml.svg" alt="ATM UML">
     <br />
     UML for ATM
 </p>
@@ -119,7 +119,7 @@ Here are the main classes of the ATM System:
 **Customer authentication:** Following is the activity diagram for a customer authenticating themselves to perform an ATM transaction:
 
 <p align="center">
-    <img src="/media-files/atm-cus-auth-activity-diagram.svg" alt="ATM Customer Authentication Activity Diagram">
+    <img src="../media-files/atm-cus-auth-activity-diagram.svg" alt="ATM Customer Authentication Activity Diagram">
     <br />
     Activity Diagram for ATM Customer Authentication
 </p>
@@ -127,7 +127,7 @@ Here are the main classes of the ATM System:
 **Cash withdraw:** Following is the activity diagram for a user withdrawing cash:
 
 <p align="center">
-    <img src="/media-files/atm-withdraw-activity-diagram.svg" alt="ATM Cash Withdraw Activity Diagram">
+    <img src="../media-files/atm-withdraw-activity-diagram.svg" alt="ATM Cash Withdraw Activity Diagram">
     <br />
     Activity Diagram for ATM Cash Withdraw
 </p>
@@ -135,7 +135,7 @@ Here are the main classes of the ATM System:
 **Deposit check:** Following is the activity diagram for the customer depositing a check:
 
 <p align="center">
-    <img src="/media-files/atm-deposit-activity-diagram.svg" alt="ATM Deposit Check Activity Diagram">
+    <img src="../media-files/atm-deposit-activity-diagram.svg" alt="ATM Deposit Check Activity Diagram">
     <br />
     Activity Diagram for ATM Deposit Check
 </p>
@@ -143,7 +143,7 @@ Here are the main classes of the ATM System:
 **Fund transfer:** Following is the activity diagram for a user transferring funds to another account:
 
 <p align="center">
-    <img src="/media-files/atm-transfer-activity-diagram.png" alt="ATM Fund Transfer Activity Diagram">
+    <img src="../media-files/atm-transfer-activity-diagram.png" alt="ATM Fund Transfer Activity Diagram">
     <br />
     Activity Diagram for ATM Fund Transfer
 </p>
@@ -153,7 +153,7 @@ Here are the main classes of the ATM System:
 Here is the sequence diagram for balance inquiry transaction:
 
 <p align="center">
-    <img src="/media-files/atm-sequence-diagram.svg" alt="ATM Sequence Diagram">
+    <img src="../media-files/atm-sequence-diagram.svg" alt="ATM Sequence Diagram">
     <br />
     Sequence Diagram for ATM
 </p>

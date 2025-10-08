@@ -7,7 +7,7 @@ Sequence diagrams show a detailed flow for a specific use case or even just part
 A sequence diagram has two dimensions: The vertical dimension shows the sequence of messages in the chronological order that they occur; the horizontal dimension shows the object instances to which the messages are sent.
 
 <p align="center">
-    <img src="/media-files/sequence-diagram.svg" alt="Sequence Diagram">
+    <img src="../media-files/sequence-diagram.svg" alt="Sequence Diagram">
     <br />
     Sample sequence diagram for ATM balance inquiry
 </p>

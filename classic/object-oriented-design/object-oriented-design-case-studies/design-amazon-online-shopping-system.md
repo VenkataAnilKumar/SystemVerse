@@ -13,7 +13,7 @@
 Amazon ([amazon.com](https://www.amazon.com/)) is the world’s largest online retailer. The company was originally a bookseller but has expanded to sell a wide variety of consumer goods and digital media. For the sake of this problem, we will focus on their online retail business where users can sell/buy their products.
 
 <p align="center">
-    <img src="/media-files/amazon.jpg" alt="Amazon">
+    <img src="../media-files/amazon.jpg" alt="Amazon">
     <br />
     Amazon - Online Shopping System
 </p>
@@ -56,7 +56,7 @@ Here are the top use cases of the Online Shopping System:
 Here is the use case diagram of our Online Shopping System:
 
 <p align="center">
-    <img src="/media-files/online-shopping-use-case.svg" alt="Online Shoopping System Use Case Diagram">
+    <img src="../media-files/online-shopping-use-case.svg" alt="Online Shoopping System Use Case Diagram">
     <br />
     Use Case Diagram for Online Shoopping System
 </p>
@@ -80,13 +80,13 @@ Here are the descriptions of the different classes of our Online Shopping System
 * **Payment:** This class will encapsulate the payment for an order. Members can pay through credit card or electronic bank transfer.
 
 <p align="center">
-    <img src="/media-files/online-shopping-class-diagram.png" alt="Online Shoopping System Class Diagram">
+    <img src="../media-files/online-shopping-class-diagram.png" alt="Online Shoopping System Class Diagram">
     <br />
     Class Diagram for Online Shoopping System
 </p>
 
 <p align="center">
-    <img src="/media-files/online-shopping-uml.svg" alt="Online Shoopping System UML">
+    <img src="../media-files/online-shopping-uml.svg" alt="Online Shoopping System UML">
     <br />
     UML for Online Shoopping System
 </p>
@@ -96,7 +96,7 @@ Here are the descriptions of the different classes of our Online Shopping System
 Following is the activity diagram for a user performing online shopping:
 
 <p align="center">
-    <img src="/media-files/online-shopping-activity-diagram.svg" alt="Online Shoopping System Activity Diagram">
+    <img src="../media-files/online-shopping-activity-diagram.svg" alt="Online Shoopping System Activity Diagram">
     <br />
     Activity Diagram for Online Shoopping System
 </p>
@@ -106,7 +106,7 @@ Following is the activity diagram for a user performing online shopping:
 1. Here is the sequence diagram for searching from the catalog:
 
 <p align="center">
-    <img src="/media-files/online-shopping-sequence-diagram-1.svg" alt="Online Shoopping System Sequence Diagram 1">
+    <img src="../media-files/online-shopping-sequence-diagram-1.svg" alt="Online Shoopping System Sequence Diagram 1">
     <br />
     Sequence Diagram for Online Shoopping System
 </p>
@@ -114,7 +114,7 @@ Following is the activity diagram for a user performing online shopping:
 2. Here is the sequence diagram for adding an item to the shopping cart:
 
 <p align="center">
-    <img src="/media-files/online-shopping-sequence-diagram-2.svg" alt="Online Shoopping System Sequence Diagram 2">
+    <img src="../media-files/online-shopping-sequence-diagram-2.svg" alt="Online Shoopping System Sequence Diagram 2">
     <br />
     Sequence Diagram for Online Shoopping System
 </p>
@@ -122,7 +122,7 @@ Following is the activity diagram for a user performing online shopping:
 3. Here is the sequence diagram for checking out to place an order:
 
 <p align="center">
-    <img src="/media-files/online-shopping-sequence-diagram-3.svg" alt="Online Shoopping System Sequence Diagram 3">
+    <img src="../media-files/online-shopping-sequence-diagram-3.svg" alt="Online Shoopping System Sequence Diagram 3">
     <br />
     Sequence Diagram for Online Shoopping System
 </p>

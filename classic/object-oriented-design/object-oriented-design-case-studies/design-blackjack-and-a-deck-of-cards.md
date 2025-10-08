@@ -12,7 +12,7 @@
 Blackjack is the most widely played casino game in the world. It falls under the category of comparing-card games and is usually played between several players and a dealer. Each player, in turn, competes against the dealer, but players do not play against each other. In Blackjack, all players and the dealer try to build a hand that totals 21 points without going over. The hand closest to 21 wins.
 
 <p align="center">
-    <img src="/media-files/blackjack.png" alt="Blackjack and a Deck of Cards">
+    <img src="../media-files/blackjack.png" alt="Blackjack and a Deck of Cards">
     <br />
     Blackjack and a Deck of Cards
 </p>
@@ -94,7 +94,7 @@ Here are the top use cases of the Blackjack game:
 Here is the use case diagram of our Blackjack game:
 
 <p align="center">
-    <img src="/media-files/blackjack-use-case-diagram.svg" alt="Blackjack Use Case Diagram">
+    <img src="../media-files/blackjack-use-case-diagram.svg" alt="Blackjack Use Case Diagram">
     <br />
     Use Case Diagram for Blackjack
 </p>
@@ -112,13 +112,13 @@ Here are the main classes of our Blackjack game:
 * **Game:** This class encapsulates the basic sequence of play. It runs the game, offers bets to players, deals the cards from the shoe to hands, updates the state of the game, collects losing bets, pays winning bets, splits hands, and responds to player choices of a hit, double or stand.
 
 <p align="center">
-    <img src="/media-files/blackjack-class-diagram.svg" alt="Blackjack Class Diagram">
+    <img src="../media-files/blackjack-class-diagram.svg" alt="Blackjack Class Diagram">
     <br />
     Class Diagram for Blackjack
 </p>
 
 <p align="center">
-    <img src="/media-files/blackjack-uml.svg" alt="Blackjack UML">
+    <img src="../media-files/blackjack-uml.svg" alt="Blackjack UML">
     <br />
     UML for Blackjack
 </p>
@@ -128,7 +128,7 @@ Here are the main classes of our Blackjack game:
 **Blackjack hit or stand:** Here are the set of steps to play blackjack with hit or stand:
 
 <p align="center">
-    <img src="/media-files/blackjack-activity-diagram.svg" alt="Blackjack Game">
+    <img src="../media-files/blackjack-activity-diagram.svg" alt="Blackjack Game">
     <br />
     Activity Diagram for Blackjack Game
 </p>

@@ -14,7 +14,7 @@ An Airline Management System is a managerial software which targets to control a
 This system involves the scheduling of flights, air ticket reservations, flight cancellations, customer support, and staff management. Daily flights updates can also be retrieved by using the system.
 
 <p align="center">
-    <img src="/media-files/airline-management-system.png" alt="Airline Management System">
+    <img src="../media-files/airline-management-system.png" alt="Airline Management System">
     <br />
     Airline Management System
 </p>
@@ -55,7 +55,7 @@ Here are the top use cases of the Airline Management System:
 Here is the use case diagram of our Airline Management System:
 
 <p align="center">
-    <img src="/media-files/ams-use-case-diagram.svg" alt="Airline Management System Use Case Diagram">
+    <img src="../media-files/ams-use-case-diagram.svg" alt="Airline Management System Use Case Diagram">
     <br />
     Use Case Diagram for Airline Management System
 </p>
@@ -77,13 +77,13 @@ Here are the main classes of our Airline Management System:
 * **Notification:** This class will be responsible for sending notifications for flight reservations, flight status update, etc.
 
 <p align="center">
-    <img src="/media-files/ams-class-diagram.png" alt="Airline Management System Class Diagram">
+    <img src="../media-files/ams-class-diagram.png" alt="Airline Management System Class Diagram">
     <br />
     Class Diagram for Airline Management System
 </p>
 
 <p align="center">
-    <img src="/media-files/ams-uml.svg" alt="Airline Management System UML">
+    <img src="../media-files/ams-uml.svg" alt="Airline Management System UML">
     <br />
     UML for Airline Management System
 </p>
@@ -93,7 +93,7 @@ Here are the main classes of our Airline Management System:
 **Reserve a ticket:** Any customer can perform this activity. Here are the steps to reserve a ticket:
 
 <p align="center">
-    <img src="/media-files/ams-reserve-ticket-activity-diagram.svg" alt="Airline Management System Reserve Ticket Activity Diagram">
+    <img src="../media-files/ams-reserve-ticket-activity-diagram.svg" alt="Airline Management System Reserve Ticket Activity Diagram">
     <br />
     Activity Diagram for Airline Management System Reserve Ticket
 </p>
@@ -101,7 +101,7 @@ Here are the main classes of our Airline Management System:
 * **Cancel a reservation:** Any customer can perform this activity. Here are the set of steps to cancel a reservation:
 
 <p align="center">
-    <img src="/media-files/ams-cancel-reservation-activity-diagram.svg" alt="Airline Management System Cancel Reservation Activity Diagram">
+    <img src="../media-files/ams-cancel-reservation-activity-diagram.svg" alt="Airline Management System Cancel Reservation Activity Diagram">
     <br />
     Activity Diagram for Airline Management System Cancel Reservation
 </p>

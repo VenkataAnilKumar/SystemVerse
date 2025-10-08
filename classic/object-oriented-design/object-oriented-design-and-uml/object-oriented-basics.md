@@ -65,7 +65,7 @@ Exchange amount: 20
 ``` 
 
 <p align="center">
-    <img src="/media-files/oop-principles.svg" alt="OOP Principles">
+    <img src="../media-files/oop-principles.svg" alt="OOP Principles">
 </p>
 
 The four principles of object-oriented programming are encapsulation, abstraction, inheritance, and polymorphism.

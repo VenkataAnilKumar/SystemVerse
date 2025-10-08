@@ -12,7 +12,7 @@
 A Car Rental System is a software built to handle the renting of automobiles for a short period of time, generally ranging from a few hours to a few weeks. A car rental system often has numerous local branches (to allow its user to return a vehicle to a different location), and primarily located near airports or busy city areas.
 
 <p align="center">
-    <img src="/media-files/car-rent.png" alt="Car Rental System">
+    <img src="../media-files/car-rent.png" alt="Car Rental System">
     <br />
     Car Rental System
 </p>
@@ -57,7 +57,7 @@ Here are the top use cases of the Car Rental System:
 Here is the use case diagram of our Car Rental System:
 
 <p align="center">
-    <img src="/media-files/car-rent-use-case-diagram.svg" alt="Car Rental System Use Case Diagram">
+    <img src="../media-files/car-rent-use-case-diagram.svg" alt="Car Rental System Use Case Diagram">
     <br />
     Use Case Diagram for Car Rental System
 </p>
@@ -79,13 +79,13 @@ Here are the main classes of our Car Rental System:
 * **Bill:** Contains different bill-items for every charge for the reservation.
 
 <p align="center">
-    <img src="/media-files/car-rent-class-diagram.png" alt="Car Rental System Class Diagram">
+    <img src="../media-files/car-rent-class-diagram.png" alt="Car Rental System Class Diagram">
     <br />
     Class Diagram for Car Rental System
 </p>
 
 <p align="center">
-    <img src="/media-files/car-rent-uml.svg" alt="Car Rental System UML">
+    <img src="../media-files/car-rent-uml.svg" alt="Car Rental System UML">
     <br />
     UML for Car Rental System
 </p>
@@ -95,7 +95,7 @@ Here are the main classes of our Car Rental System:
 **Pick up a vehicle:** Any member can perform this activity. Here are the steps to pick up a vehicle:
 
 <p align="center">
-    <img src="/media-files/car-rent-pick-up-activity-diagram.svg" alt="Car Rental System Pick Up Activity Diagram">
+    <img src="../media-files/car-rent-pick-up-activity-diagram.svg" alt="Car Rental System Pick Up Activity Diagram">
     <br />
     Activity Diagram for Car Rental System Pick Up
 </p>
@@ -103,7 +103,7 @@ Here are the main classes of our Car Rental System:
 **Return a vehicle:** Any worker can perform this activity. While returning a vehicle, the system must collect a late fee from the member if the return date is after the due date. Here are the steps for returning a vehicle:
 
 <p align="center">
-    <img src="/media-files/car-rent-return-activity-diagram.svg" alt="Car Rental System Return Activity Diagram">
+    <img src="../media-files/car-rent-return-activity-diagram.svg" alt="Car Rental System Return Activity Diagram">
     <br />
     Activity Diagram for Car Rental System Return
 </p>

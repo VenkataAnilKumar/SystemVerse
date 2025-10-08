@@ -12,7 +12,7 @@
 A Restaurant Management System is a software built to handle all restaurant activities in an easy and safe manner. This System will give the Restaurant management power and flexibility to manage the entire system from a single portal. The system allows the manager to keep track of available tables in the system as well as the reservation of tables and bill generation.
 
 <p align="center">
-    <img src="/media-files/restaurant-management-system.png" alt="Restaurant Management System">
+    <img src="../media-files/restaurant-management-system.png" alt="Restaurant Management System">
     <br />
     Restaurant Management System
 </p>
@@ -59,7 +59,7 @@ Here are the top use cases of the Restaurant Management System:
 Here is the use case diagram of our Restaurant Management System:
 
 <p align="center">
-    <img src="/media-files/rms-use-case-diagram.svg" alt="Restaurant Management System Use Case Diagram">
+    <img src="../media-files/rms-use-case-diagram.svg" alt="Restaurant Management System Use Case Diagram">
     <br />
     Use Case Diagram for Restaurant Management System
 </p>
@@ -81,13 +81,13 @@ Here is the description of the different classes of our Restaurant Management Sy
 * **Bill:** Contains different bill-items for every meal item.
 
 <p align="center">
-    <img src="/media-files/rms-class-diagram.png" alt="Restaurant Management System Class Diagram">
+    <img src="../media-files/rms-class-diagram.png" alt="Restaurant Management System Class Diagram">
     <br />
     Class Diagram for Restaurant Management System
 </p>
 
 <p align="center">
-    <img src="/media-files/rms-uml.svg" alt="Restaurant Management System UML">
+    <img src="../media-files/rms-uml.svg" alt="Restaurant Management System UML">
     <br />
     UML for Restaurant Management System
 </p>
@@ -97,7 +97,7 @@ Here is the description of the different classes of our Restaurant Management Sy
 **Place order:** Any waiter can perform this activity. Here are the steps to place an order:
 
 <p align="center">
-    <img src="/media-files/rms-place-order-activity-diagram.svg" alt="Restaurant Management System Place Order">
+    <img src="../media-files/rms-place-order-activity-diagram.svg" alt="Restaurant Management System Place Order">
     <br />
     Activity Diagram for Restaurant Management System Place Order
 </p>
@@ -105,7 +105,7 @@ Here is the description of the different classes of our Restaurant Management Sy
 **Make a reservation:** Any receptionist can perform this activity. Here are the steps to make a reservation:
 
 <p align="center">
-    <img src="/media-files/rms-make-reservation-activity-diagram.svg" alt="Restaurant Management System Make Reservation">
+    <img src="../media-files/rms-make-reservation-activity-diagram.svg" alt="Restaurant Management System Make Reservation">
     <br />
     Activity Diagram for Restaurant Management System Make Reservation
 </p>
@@ -113,7 +113,7 @@ Here is the description of the different classes of our Restaurant Management Sy
 **Cancel a reservation:** Any receptionist can perform this activity. Here are the steps to cancel a reservation:
 
 <p align="center">
-    <img src="/media-files/rms-cancel-reservation-activity-diagram.svg" alt="Restaurant Management System Cancel Reservation">
+    <img src="../media-files/rms-cancel-reservation-activity-diagram.svg" alt="Restaurant Management System Cancel Reservation">
     <br />
     Activity Diagram for Restaurant Management System Cancel Reservation
 </p>

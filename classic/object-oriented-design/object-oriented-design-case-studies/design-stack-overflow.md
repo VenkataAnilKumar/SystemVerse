@@ -15,7 +15,7 @@ Stack Overflow is one of the largest online communities for developers to learn 
 Users of Stack Overflow can earn reputation points and badges. For example, a person is awarded ten reputation points for receiving an “up” vote on an answer and five points for the “up” vote of a question. The can also receive badges for their valued contributions. A higher reputation lets users unlock new privileges like the ability to vote, comment on, and even edit other people’s posts.
 
 <p align="center">
-    <img src="/media-files/stack-overflow.jpg" alt="Stack Overflow">
+    <img src="../media-files/stack-overflow.jpg" alt="Stack Overflow">
     <br />
     Stack Overflow - Online Community for Developers
 </p>
@@ -59,7 +59,7 @@ Here are the top use cases for Stack Overflow:
 Here is the use case diagram of Stack Overflow:
 
 <p align="center">
-    <img src="/media-files/stack-overflow-use-case.svg" alt="Stack Overflow Use Case Diagram">
+    <img src="../media-files/stack-overflow-use-case.svg" alt="Stack Overflow Use Case Diagram">
     <br />
     Use Case Diagram for Stack Overflow
 </p>
@@ -79,13 +79,13 @@ Here are the main classes of Stack Overflow System:
 * **Notification:** This class will be responsible for sending notifications to members and assigning badges to members based on their reputations.
 
 <p align="center">
-    <img src="/media-files/stack-overflow-class-diagram.svg" alt="Stack Overflow Class Diagram">
+    <img src="../media-files/stack-overflow-class-diagram.svg" alt="Stack Overflow Class Diagram">
     <br />
     Class Diagram for Stack Overflow
 </p>
 
 <p align="center">
-    <img src="/media-files/stack-overflow-uml.svg" alt="Stack Overflow UML">
+    <img src="../media-files/stack-overflow-uml.svg" alt="Stack Overflow UML">
     <br />
     UML for Stack Overflow
 </p>
@@ -95,7 +95,7 @@ Here are the main classes of Stack Overflow System:
 **Post a new question:** Any member or moderator can perform this activity. Here are the steps to post a question:
 
 <p align="center">
-    <img src="/media-files/stack-overflow-activity-diagram.svg" alt="Stack Overflow Activity Diagram">
+    <img src="../media-files/stack-overflow-activity-diagram.svg" alt="Stack Overflow Activity Diagram">
     <br />
     Activity Diagram for Stack Overflow
 </p>
@@ -105,7 +105,7 @@ Here are the main classes of Stack Overflow System:
 Following is the sequence diagram for creating a new question:
 
 <p align="center">
-    <img src="/media-files/stack-overflow-sequence-diagram.svg" alt="Stack Overflow Sequence Diagram">
+    <img src="../media-files/stack-overflow-sequence-diagram.svg" alt="Stack Overflow Sequence Diagram">
     <br />
     Sequence Diagram for Stack Overflow
 </p>

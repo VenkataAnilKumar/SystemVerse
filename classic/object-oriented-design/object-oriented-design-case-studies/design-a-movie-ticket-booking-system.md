@@ -13,7 +13,7 @@
 An online movie ticket booking system facilitates the purchasing of movie tickets to its customers. E-ticketing systems allow customers to browse through movies currently playing and book seats, anywhere and anytime.
 
 <p align="center">
-    <img src="/media-files/movie-ticket-booking-system.png" alt="Movie Ticket Booking System">
+    <img src="../media-files/movie-ticket-booking-system.png" alt="Movie Ticket Booking System">
     <br />
     Movie Ticket Booking System
 </p>
@@ -57,7 +57,7 @@ Here are the top use cases of the Movie Ticket Booking System:
 Here is the use case diagram of LinkedIn:
 
 <p align="center">
-    <img src="/media-files/mtbs-use-case-diagram.svg" alt="Movie Ticket Booking System Use Case Diagram">
+    <img src="../media-files/mtbs-use-case-diagram.svg" alt="Movie Ticket Booking System Use Case Diagram">
     <br />
     Use Case Diagram for Movie Ticket Booking System
 </p>
@@ -80,13 +80,13 @@ Here are the main classes of the Movie Ticket Booking System:
 * **Notification:** Will take care of sending notifications to customers.
 
 <p align="center">
-    <img src="/media-files/mtbs-class-diagram.png" alt="Movie Ticket Booking System Class Diagram">
+    <img src="../media-files/mtbs-class-diagram.png" alt="Movie Ticket Booking System Class Diagram">
     <br />
     Class Diagram for Movie Ticket Booking System
 </p>
 
 <p align="center">
-    <img src="/media-files/mtbs-uml.svg" alt="Movie Ticket Booking System UML">
+    <img src="../media-files/mtbs-uml.svg" alt="Movie Ticket Booking System UML">
     <br />
     UML for Movie Ticket Booking System
 </p>
@@ -96,7 +96,7 @@ Here are the main classes of the Movie Ticket Booking System:
 **Make a booking:** Any customer can perform this activity. Here are the steps to book a ticket for a show:
 
 <p align="center">
-    <img src="/media-files/mtbs-make-booking-activity-diagram.svg" alt="Movie Ticket Booking System Make Booking Activity Diagram">
+    <img src="../media-files/mtbs-make-booking-activity-diagram.svg" alt="Movie Ticket Booking System Make Booking Activity Diagram">
     <br />
     Activity Diagram for Movie Ticket Booking System Make Booking
 </p>
@@ -104,7 +104,7 @@ Here are the main classes of the Movie Ticket Booking System:
 **Cancel a booking:** Customer can cancel their bookings. Here are the steps to cancel a booking:
 
 <p align="center">
-    <img src="/media-files/mtbs-cancel-booking-activity-diagram.svg" alt="Movie Ticket Booking System Cancel Booking Activity Diagram">
+    <img src="../media-files/mtbs-cancel-booking-activity-diagram.svg" alt="Movie Ticket Booking System Cancel Booking Activity Diagram">
     <br />
     Activity Diagram for Movie Ticket Booking System Cancel Booking
 </p>

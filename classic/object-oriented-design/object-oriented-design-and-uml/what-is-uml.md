@@ -11,7 +11,7 @@ Benefits of using UML:
 5. It becomes easier to hand the system over to a new team.
 
 <p align="center">
-    <img src="/media-files/uml.jpeg" alt="UML">
+    <img src="../media-files/uml.jpeg" alt="UML">
 </p>
 
 **Types of UML Diagrams:** The current UML standards call for 14 different kinds of diagrams. These diagrams are organized into two distinct groups: structural diagrams and behavioral or interaction diagrams. As the names suggest, some UML diagrams analyze and depict the structure of a system or process, whereas others describe the behavior of the system, its actors, and its building components.
